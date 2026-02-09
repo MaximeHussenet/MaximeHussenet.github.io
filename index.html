@@ -26,12 +26,21 @@
             margin-top: 0;
             color: #007aff;
         }
+        .app-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
         a {
             color: #007aff;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .privacy-link {
+            color: #888;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -40,19 +49,34 @@
     <p>iOS Developer</p>
 
     <div class="app">
+        <h2>MindWander</h2>
+        <p>Discover random educational snippets from Wikipedia in a swipeable feed. Features personalized recommendations, quizzes, and offline support.</p>
+        <div class="app-links">
+            <a href="https://github.com/MaximeHussenet/MindWander">View on GitHub</a>
+            <a href="/mindwander-privacy.html" class="privacy-link">Privacy Policy</a>
+        </div>
+    </div>
+
+    <div class="app">
         <h2>GuessLine</h2>
         <p>A timeline-based guessing game for iOS - Identify movies, TV shows, and more from visual timelines showing character arcs and story progression.</p>
-        <p><a href="https://apps.apple.com/app/guessline/id6755013091">Download on App Store</a></p>
+        <div class="app-links">
+            <a href="https://apps.apple.com/app/guessline/id6755013091">Download on App Store</a>
+            <a href="/guessline-privacy.html" class="privacy-link">Privacy Policy</a>
+        </div>
     </div>
 
     <div class="app">
         <h2>AI Snap</h2>
         <p>Identify anything with AI - Analyze photos using multiple AI models including Claude, GPT, and Gemini.</p>
-        <p><a href="https://github.com/MaximeHussenet/ai-snap">View on GitHub</a></p>
+        <div class="app-links">
+            <a href="https://github.com/MaximeHussenet/ai-snap">View on GitHub</a>
+            <a href="/aisnap-privacy.html" class="privacy-link">Privacy Policy</a>
+        </div>
     </div>
 
     <footer>
-        <p><small>&copy; 2025 Maxime Hussenet</small></p>
+        <p><small>&copy; 2026 Maxime Hussenet</small></p>
     </footer>
 </body>
 </html>
